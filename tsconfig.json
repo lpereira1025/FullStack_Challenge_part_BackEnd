@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",  // Certifique-se de que o outDir seja uma pasta diferente da pasta de origem
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
